@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Rectangle Fill="#FF3C3CCB" HorizontalAlignment="Left" Height="100" Margin="238,201,0,0" Stroke="Black" VerticalAlignment="Top" Width="596"/>
 
     </Grid>
 </Page>
