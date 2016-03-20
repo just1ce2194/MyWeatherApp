@@ -7,8 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Rectangle Fill="#FF3C3CCB" HorizontalAlignment="Left" Height="100" Margin="238,201,0,0" Stroke="Black" VerticalAlignment="Top" Width="596"/>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Grid_Loaded" Margin="0,0,-1041,0">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="10,206,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="165" Width="728"/>
+        <ComboBox x:Name="country_choose_cmbBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="257" Height="58" PlaceholderText="Choose country" IsDropDownOpen="True" IsSynchronizedWithCurrentItem="False" MaxDropDownHeight="500" SelectionChanged="country_choose_cmbBox_SelectionChanged"/>
+        <ComboBox x:Name="city_choose_cmbBox" HorizontalAlignment="Left" Margin="481,10,0,0" VerticalAlignment="Top" Width="257" Height="58" PlaceholderText="Choose country" IsDropDownOpen="True" IsSynchronizedWithCurrentItem="False" MaxDropDownHeight="500" SelectionChanged="city_choose_cmbBox_SelectionChanged" />
 
     </Grid>
 </Page>

@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="MyWeatherApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyWeatherApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:ConnectionId='1' Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                      Margin="0,0,-1041,0">
+        <TextBox x:ConnectionId='2' x:Name="textBox" HorizontalAlignment="Left" Margin="10,206,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="165" Width="728"/>
+        <ComboBox x:ConnectionId='3' x:Name="country_choose_cmbBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="257" Height="58" PlaceholderText="Choose country" IsDropDownOpen="True" IsSynchronizedWithCurrentItem="False" MaxDropDownHeight="500"                                                          />
+        <ComboBox x:ConnectionId='4' x:Name="city_choose_cmbBox" HorizontalAlignment="Left" Margin="481,10,0,0" VerticalAlignment="Top" Width="257" Height="58" PlaceholderText="Choose country" IsDropDownOpen="True" IsSynchronizedWithCurrentItem="False" MaxDropDownHeight="500"                                                        />
+
+    </Grid>
+</Page>
+

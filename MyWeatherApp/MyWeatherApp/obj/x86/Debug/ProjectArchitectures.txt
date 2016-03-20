@@ -1,0 +1,1 @@
+C:\Users\Taras\Source\Repos\MyWeatherApp\MyWeatherApp\MyWeatherApp\MyWeatherApp.csproj;x86
